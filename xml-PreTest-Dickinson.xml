@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Poem 6 (J 281: 1861/1935)</Title>
+                <title>Poem 6 (J 281: 1861/1935)</title> <!--start and end tags didn't match-->
                 <author>Emily Dickinson</author>
             </titleStmt>
             <publicationStmt>
