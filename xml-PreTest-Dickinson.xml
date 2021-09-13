@@ -39,7 +39,7 @@
                 <listWit>
                     <witness xml:id="df16">
                         <bibl>
-                            <title>ORIGINAL POEMS</title><author>Emily Dickinson</author> <!--lnh: had overlapping tags-->
+                            <title>ORIGINAL POEMS</title><author>Emily Dickinson</author> <!--lnh: had tangled tags-->
                         </bibl>
                     </witness>
                     <witness xml:id="fh"> <!--lnh: missing """ in attribute-->
@@ -47,7 +47,7 @@
                             <title>Final Harvest: Emily Dickinson's Poems</title>
                             <author>Emily Dickinson</author>
                             <editor>Thomas H. Johnson</editor>
-                            <pub Place=""><!--lnh: needed = sign in attribute-->Boston</pub> <!--lnh: end tag doesn't need a matching attribute-->
+                            <pub place="Boston"><!--lnh: needed = sign in attribute-->Boston</pub> <!--lnh: end tag doesn't need a matching attribute-->
                             <publisher>Little, Brown &amp; <!--lnh: & symbol needed "amp"--> Company</publisher>
                             <date>1961</date>
                         </bibl> <!--lnh: needed an end tag-->
