@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <teiHeader>
+<XML> <!--lnh: document needs root element to be well formed-->   <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Poem 6 (J 281: 1861/1935)</title> <!--start and end tags didn't match-->
+                <title>Poem 6 (J 281: 1861/1935)</title> <!--lnh: start and end tags didn't match-->
                 <author>Emily Dickinson</author>
             </titleStmt>
             <publicationStmt>
-                <p>Fascicle 16: Dickinson's variants and published versions</p> <!--end tag needed a "/"-->
+                <p>Fascicle 16: Dickinson's variants and published versions</p> <!--lnh: end tag needed a "/"-->
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <repository>
                         <idno>1606</idno>
-                        </repository> <!--missing end tag-->
+                        </repository> <!--lnh: missing end tag-->
                     </msIdentifier>
                 </msDesc>
                 <bibl>
-                    <ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/> <!--self closing tag needed "/"-->
+                    <ref target="http://www.cs.virginia.edu/~ajf2j/emily/"/> <!--lnh: self closing tag needed "/"-->
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -28,31 +28,31 @@
                 <listRef>
                     <ptr target="xml/1606variant.xml"/>
                     <ptr target="img/1606/fs1606a.jpg"/>
-                    <ptr target="img/1606/fs1606b.jpg"/> <!--needed "=" in attribute-->
+                    <ptr target="img/1606/fs1606b.jpg"/> <!--lnh: needed "=" in attribute-->
                     <ptr target="img/1606/1606fha.jpg"/>
                     <ptr target="img/1606/1606fhb.jpg"/>
                     <ptr target="img/1606/1606fhMap.jpg"/>
-                    <ptr target="img/1606/fs1606Map.jpg"/> <!--self closing element needed "/"-->
-                </listRef> <!--element tags didn't match-->
+                    <ptr target="img/1606/fs1606Map.jpg"/> <!--lnh: self closing element needed "/"-->
+                </listRef> <!--lnh: element tags didn't match-->
             </div>
             <div type="witness">
                 <listWit>
                     <witness xml:id="df16">
                         <bibl>
-                            <title>ORIGINAL POEMS</title><author>Emily Dickinson</author> <!--had overlapping tags-->
+                            <title>ORIGINAL POEMS</title><author>Emily Dickinson</author> <!--lnh: had overlapping tags-->
                         </bibl>
                     </witness>
-                    <witness xml:id="fh>
+                    <witness xml:id="fh"> <!--lnh: missing """ in attribute-->
                         <bibl>
                             <title>Final Harvest: Emily Dickinson's Poems</title>
                             <author>Emily Dickinson</author>
                             <editor>Thomas H. Johnson</editor>
-                            <pub Place>Boston</pub> <!--end tag doesn't need a matching attribute-->
-                            <publisher>Little, Brown &amp; <!--& symbol needed "amp"--> Company</publisher>
+                            <pub Place=""><!--lnh: needed = sign in attribute-->Boston</pub> <!--lnh: end tag doesn't need a matching attribute-->
+                            <publisher>Little, Brown &amp; <!--lnh: & symbol needed "amp"--> Company</publisher>
                             <date>1961</date>
-                        </bibl> <!--needed an end tag-->
+                        </bibl> <!--lnh: needed an end tag-->
                     </witness>
-                </listWit> <!--needed an end tag-->
+                </listWit> <!--lnh: needed an end tag-->
             </div>
         </front>
         <body>
@@ -105,7 +105,7 @@
                     </app>
                     and Cold—
                 </l>
-                <l n="10">But that will hold—</l> <!--missing """ in attribute-->
+                <l n="10">But that will hold—</l> <!--lnh: missing """ in attribute-->
                 <l n="11">If any are not sure—</l>
                 <l n="12">We show them—prayer—</l>
                 <l n="13">But we, who know,</l>
@@ -115,16 +115,16 @@
                 <l n="15">Looking at Death, is Dying—</l>
                 <l n="16">Just let go the Breath—</l>
                 <l n="17">And not the pillow at your Cheek</l>
-                <l n="18">So Slumbereth—</l> <!--missing "/" in end tag-->
+                <l n="18">So Slumbereth—</l> <!--lnh: missing "/" in end tag-->
             </lg>
             <lg>
                 <l n="19">Others, Can wrestle—</l>
-                <l n="20">Yours, is done—</l> <!--no end tag-->
+                <l n="20">Yours, is done—</l> <!--lnh: no end tag-->
                 <l n="21">
                     And so of
                     <app>
                         <rdg wit="#df16">Wo</rdg>
-                        <rdg wit="#fh">Woe</rdg> <!--missing "/" in end tag-->
+                        <rdg wit="#fh">Woe</rdg> <!--lnh: missing "/" in end tag-->
                     </app>
                     , bleak dreaded—
                     <app>
@@ -139,4 +139,4 @@
             </lg>
         </body>
     </text>
-
+</XML>
