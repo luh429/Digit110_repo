@@ -8,6 +8,20 @@ ol {list-style-type: lower-alpha;
 padding: 5em;
     
 }
+.navbar {
+background-color: black;
+color: white;
+padding: 4%;
+}
+h1.title {
+text-align: center;
+}
+a.header {
+text-align: center;
+text-decoration: none;
+display: inline;
+color: white;
+}
 
 /*  ebb: These are CSS comments! The following rules style the "picture frame" HTML elements 
  * and help control image size in a way that scales. We made the figure element be 30% of the width of the page.
