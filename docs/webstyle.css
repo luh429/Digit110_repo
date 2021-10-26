@@ -50,6 +50,16 @@ img.image3 {
 width: 60%;
 }
 
+img.image4 {
+width: 50%;
+}
+figure.image4 {
+background-color: #4C4C4C;
+padding: 15px;
+width: 50%;
+color: white;
+}
+
 p.figure_description {
 padding-top: 100px;
 padding-left: 20px;
@@ -57,6 +67,12 @@ padding-left: 20px;
 
 div.images {
 background-color: grey;
+}
+
+div.flexbox1 {
+background-color: white;
+width: 50%;
+color: black;
 }
 
 /*  ebb: These are CSS comments! The following rules style the "picture frame" HTML elements 
