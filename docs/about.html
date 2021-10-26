@@ -6,44 +6,52 @@
         <meta name="author" content="My Name" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="webstyle.css" />
-        
+
     </head>
-    <!--This page is published at https://newtfire.github.io/textEncoding-Hub/copy-and-rename-to-docs/ -->
+    
     <body>
         <div class="navbar">
-            <h1 class="title">About</h1>
             <a href="index.html" class="header">Home</a>
-            <a class="header">|</a>
+            <a>|</a>
             <a href="news.html" class="header">News</a>
-            <a class="header">|</a>
+            <a>|</a>
             <a href="contact.html" class="header">Contact</a>
-            <a class="header">|</a>
+            <a>|</a>
             <a href="about.html" class="header">About</a>
-            
+
         </div>
-        
-        <h1>Sup world!</h1>
-        <h2>Lower level heading</h2>
-        <h3>Lowest level yet</h3>
-        <p>Welcome to my site.</p>
-        <!--ebb: When pointing to images in your own repo, always use *relative* file associations: Here we are pointing to an images directory that's in the same
-        folder as this HTML file we're editing. And we're going into the images folder to deliver the newt-mosaic4.png file inside. -->
-        
-       <p>Here is the same image in a sort of <q>picture frame</q> made by HTML elements: </p>
-        
-      <figure>
-          <img src="images/squirrel1.jpg" alt="Awesome squirrel making a funny face"/>
-          <figcaption>Awesome squirrel making a funny face</figcaption>
-      </figure>
-        
+        <div id="title">
+            <h1 class="title">About</h1>
+        </div>
+        <h1>Hello, welcome to my site!</h1>
+        <p>Here are some pictures of squirrels!</p>
+        <div class="images">
+            <p class="figure_description">This figure's size is realative to the size of the
+                page:</p>
+            <figure class="image1">
+                <img class="image1" src="images/squirrel1.jpg"
+                    alt="Awesome squirrel making a funny face" />
+                <figcaption>Awesome squirrel making a funny face</figcaption>
+            </figure>
+            <p class="figure_description">This figure's size is set at 500 px:</p>
+            <figure class="image2">
+                <img class="image2" src="images/squirrel2.jpg"
+                    alt="Funny looking squirrel with long ear hair" />
+                <figcaption>Funny looking squirrel with long ear hair</figcaption>
+            </figure>
+            <p class="figure_description">This image does not have a figure and its width is set to
+                take up 60% of the page:</p>
+            <img class="image3" src="images/squirrel3.jpg"
+                alt="Funny looking squirrel with a peanut" />
+        </div>
         <ol>
             <li>apples</li>
             <li>oranges</li>
             <li>bananas</li>
             <li>Fresh Avocados</li>
         </ol>
-        
-        <p>We are at <a href="https://behrend.psu.edu/">Penn State Erie, The Behrend College</a>.</p>
+        <p>We are at <a href="https://behrend.psu.edu/">Penn State Erie, The Behrend
+            College</a>.</p>
         <!--ebb: The <a> element above is showing how to make an *absolute* file association with a literal, full website address. 
             Only do this for pointing OUTSIDE your own repo. -->
     </body>

@@ -1,7 +1,7 @@
 
 body {
-background-color: Pink;
-color: indigo;
+background-color: white;
+color: black;
 font-family: arial, helvetica, sans-serif;
 }
 ol {list-style-type: lower-alpha;
@@ -9,11 +9,13 @@ padding: 5em;
     
 }
 .navbar {
-background-color: black;
+background-color: #4C4C4C;
 color: white;
-padding: 4%;
+padding: 10px;
 }
-h1.title {
+#title {
+background-color: grey;
+padding: 20px;
 text-align: center;
 }
 a.header {
@@ -21,6 +23,40 @@ text-align: center;
 text-decoration: none;
 display: inline;
 color: white;
+padding: 20px;
+}
+
+img.image1 {
+width: 100%;
+}
+figure.image1 {
+background-color: #4C4C4C;
+padding: 15px;
+width: 50%;
+color: white;
+}
+
+img.image2 {
+width: 100%;
+}
+figure.image2 {
+background-color: #4C4C4C;
+padding: 15px;
+width: 500px;
+color: white;
+}
+
+img.image3 {
+width: 60%;
+}
+
+p.figure_description {
+padding-top: 100px;
+padding-left: 20px;
+}
+
+div.images {
+background-color: grey;
 }
 
 /*  ebb: These are CSS comments! The following rules style the "picture frame" HTML elements 
@@ -28,9 +64,10 @@ color: white;
  * Then we controlled the width of the image **inside** the picture frame of the <figure>: it's allowed to fill 100% of the figure element, but can't get larger than 300 pixels.
  * You can give any element a background-color property, so we are showing how to do it here.  */
  
-figure {background-color:lavender; margin:3em; width: 30%;} 
+/*figure {background-color:lavender; margin:3em; width: 30%;} 
 figcaption {font-style:italic; font-size:.8em;}
-figure img {max-width:300px; width:100%;}
+figure img {max-width:300px; width:100%;}*/
+
 /* Notice how the last rule is written: figure image {properties} . 
  * The rule above controls the <img> element that is contained inside <figure>. 
  * It does not control the size of the <img> that is not inside a <figure>. */
